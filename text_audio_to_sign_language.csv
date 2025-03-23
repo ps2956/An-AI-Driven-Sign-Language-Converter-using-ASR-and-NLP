@@ -1,0 +1,50 @@
+import pandas as pd
+
+# Sample data for the CSV file
+data = {
+    'text': [
+        'Hello',
+        'Thank you',
+        'Goodbye',
+        'Please',
+        'Sorry',
+        'Yes',
+        'No',
+        'Help',
+        'I love you',
+        'See you later'
+    ],
+    'audio': [
+        'audio/hello.wav',
+        'audio/thank_you.wav',
+        'audio/goodbye.wav',
+        'audio/please.wav',
+        'audio/sorry.wav',
+        'audio/yes.wav',
+        'audio/no.wav',
+        'audio/help.wav',
+        'audio/i_love_you.wav',
+        'audio/see_you_later.wav'
+    ],
+    'sign_language': [
+        'sign/hello.mp4',
+        'sign/thank_you.mp4',
+        'sign/goodbye.mp4',
+        'sign/please.mp4',
+        'sign/sorry.mp4',
+        'sign/yes.mp4',
+        'sign/no.mp4',
+        'sign/help.mp4',
+        'sign/i_love_you.mp4',
+        'sign/see_you_later.mp4'
+    ]
+}
+
+# Create a DataFrame from the sample data
+df = pd.DataFrame(data)
+
+# Save the DataFrame to a CSV file
+csv_file_path = 'text_audio_to_sign_language.csv'
+df.to_csv(csv_file_path, index=False)
+
+print(f"CSV file created at: {csv_file_path}")
