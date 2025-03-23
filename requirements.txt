@@ -7,14 +7,3 @@ regex==2022.10.31
 sqlparse>=0.4.4
 tqdm==4.64.1
 setuptools==67.8.0
-
-
-
-cd ~/Downloads/SLR
-python3 -m venv venv
-venv/bin/activate
-pip install -r requirements.txt
-pip install django
-python manage.py migrate
-python manage.py createsuperuser
-python manage.py runserver
