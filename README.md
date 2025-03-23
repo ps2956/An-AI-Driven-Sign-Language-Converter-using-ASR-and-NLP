@@ -1,4 +1,5 @@
-# Audio Speech To Sign Language Converter
+# Smart Communication Aid: An-AI-Driven-Sign-Language-Converter-using-ASR-and-NLP
+
 
 A Web Application which takes in live audio speech recording as input, converts it into text and displays the relevant Indian Sign Language animations.
 
@@ -7,8 +8,6 @@ A Web Application which takes in live audio speech recording as input, converts 
 > - Text Preprocessing using Natural Language Toolkit(NLTK).
 > - A 3D animation of a character created
 >   using Blender 3D tool.
-
-Project Demo Video: https://youtu.be/YiHhD0QGrno
 
 ## Prerequisites
 
